@@ -4,7 +4,7 @@ image:
 tasks:
   # - init: /usr/bin/start-vnc-session.sh
   - command: zsh
-  - command: jupyter-lab --ContentsManager.allow_hidden=True
+  - command: cd .. && jupyter-lab --ContentsManager.allow_hidden=True
 
 # Ports to expose on workspace startup
 ports:
