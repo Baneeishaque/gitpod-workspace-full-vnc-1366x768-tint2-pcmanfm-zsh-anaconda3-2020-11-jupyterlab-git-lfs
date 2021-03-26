@@ -14,3 +14,7 @@ ports:
     onOpen: ignore
   - port: 8888
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - ms-python.python@2020.10.332292344:5ctthQ25Qni5/aAuOIUTYQ==
